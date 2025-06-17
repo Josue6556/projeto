@@ -1,0 +1,170 @@
+body{
+height: 100vh;
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+font-family: Arial, sans-serif;
+padding-top: 80px;
+
+background-image: var(--bg-url);
+background-size: cover;}
+
+html {
+  --text-color: white;
+  --bg-url: url(./bg-desktop.jpg);
+  
+}
+
+.light{--text-color: black;
+--bg-url: url(./bg-desktop-light.jpg);}
+
+.eu-img
+{width: 150px;
+    height: 150px;
+   object-fit: cover;
+   border-radius: 50%;
+   border: 2px solid white;
+   margin-bottom: 20px;}
+
+   h1{margin-bottom: 5px;
+  color: black;}
+
+  .insta{margin-top: 10px;}
+
+  .insta a{
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .insta a:hover{
+    color: #e1306c;
+  }
+  .light .insta a{color: #000;}
+
+  .light .insta a:hover{
+    color: #e1306c;
+  }
+   .botões{display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 20px;}
+
+button {padding: 12px 20px;
+font-size: 24px;
+background:  #715c71;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: background-color 0.3s ease;}
+
+button:hover{
+    background-color: #5b47a1;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(113, 89, 193, 0.5);
+}
+p{font-size: 24px;
+color: black;
+margin-bottom: 5px;}
+
+.container-topo{
+  position: relative;
+  display: inline-block;
+
+}
+
+
+#mostrarFrase{
+  position: absolute;
+  top: 10px;
+  right: -80px;
+  padding: 6px 10px;
+  font-size: 12px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+
+#mostrarFrase:hover{
+  background-color: #574fd3;
+}
+#fraseMotivadora{color: white;
+opacity: 0;
+transition: opacity 0.5g ease;
+margin-top: 5px;}
+.light #fraseMotivadora{color: #000;}
+
+#switch {
+  background: #fff;
+  border-radius: 9999px;
+  padding: 4px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin: 20px auto;
+}
+
+#switch button {
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+#switch button i {
+  color: #000;
+}
+ 
+
+.light {
+  background-image: var(--bg-url);
+  color: var(--text-color);
+}
+
+.light #switch {
+  background: #333;
+  justify-content: flex-end;
+}
+
+.light #switch button {
+  background: #333;
+}
+
+.light #switch button i{
+  color: #fff;
+}
+
+.light .botões button{
+  color: black;
+}
+
+
+@media (max-width: 500px){
+  body {
+    padding: 40px 20px;
+  }
+
+  .eu-img {
+    width: 100px;
+    height: 100px; }
+
+    h1{font-size: 24px;}
+
+    button{font-size: 14px;
+        padding: 10px 16px;}
+}
