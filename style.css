@@ -11,14 +11,17 @@ padding-top: 80px;
 background-image: var(--bg-url);
 background-size: cover;}
 
+#container{width: 100vh;
+max-width: 588px;}
+
 html {
   --text-color: white;
-  --bg-url: url(./bg-desktop.jpg);
+  --bg-url: url(./meu-primeiro-projeto/bg-desktop.jpg);
   
 }
 
 .light{--text-color: black;
---bg-url: url(./bg-desktop-light.jpg);}
+--bg-url: url(./meu-primeiro-projeto/bg-desktop-light.jpg) ;}
 
 .eu-img
 {width: 150px;
