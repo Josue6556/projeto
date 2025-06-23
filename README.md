@@ -12,12 +12,8 @@ Este é o meu primeiro projeto HTML, CSS e JavaScript, criado durante os estudos
 ## 🔗 Acesse o projeto
 
 Você pode ver o projeto online (caso esteja hospedado) ou rodar localmente:
+https://josue6556.github.io/projeto/
 
-```bash
-# Clone o repositório
-git clone https://github.com/Josue6556/projeto.git
-
-# Abra o arquivo index.html no navegador
 
 💻 Tecnologias
 
@@ -32,7 +28,7 @@ Font Awesome (para os ícones)
 
 📸 Redes Sociais
 
-Me siga no Instagram: @josue_isaias
+Me siga no Instagram: https://www.instagram.com/js_torres17k/
 
 🧠 Aprendizados
 
